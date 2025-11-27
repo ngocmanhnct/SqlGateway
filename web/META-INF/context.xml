@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ch12email">
+
+    <Resource name="jdbc/murach" auth="Container" 
+        driverClassName="org.postgresql.Driver" 
+        url="jdbc:postgresql://dpg-d4k09qm3jp1c738gen50-a.oregon-postgres.render.com:5432/ltweb?sslmode=require" 
+        username="ltweb_user" password="VZcuMQTrnePaaCtIsNMr2rzmhiksPp5h" 
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+
+</Context>
