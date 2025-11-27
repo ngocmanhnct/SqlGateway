@@ -37,8 +37,7 @@
     </dependencies>
 
     <build>
-        <finalName>ROOT</finalName>
-        <plugins>
+        <finalName>ROOT</finalName>  <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
